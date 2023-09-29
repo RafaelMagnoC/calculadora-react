@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Calculadora
+
+Calculadora que se assemelha à calculadora presente nos dispositivos iOS
+
+## Motivo
+
+"O objetivo principal do projeto foi adquirir conhecimento com a biblioteca React para a criação de componentes reutilizáveis e compreender como funciona a lógica e a utilização de props."
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
