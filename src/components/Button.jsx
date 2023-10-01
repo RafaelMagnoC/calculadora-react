@@ -5,11 +5,11 @@ const Button = (props) => {
     let classes = "button "
     classes += props.operation ? "operation" : ""
     classes += props.double ? "double" : ""
-    classes += props.triplo ? "triplo" : ""
+    classes += props.triple ? "triple" : ""
     
     return (
         <button
-            onClick={e => props.click && props.click(props.innerHTML)} 
+            onClick={e => props.click && props.click(e.target.innerHTML)} 
             className={classes}>
             {props.label}
         </button>

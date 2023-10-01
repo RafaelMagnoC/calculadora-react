@@ -1,4 +1,4 @@
-/*
+
 
 * {
     margin: 0;
@@ -6,8 +6,6 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-*/
 
 
 #root {
@@ -19,14 +17,3 @@
     background: linear-gradient(to right, rgb(189, 195, 199), rgb(44, 62, 80));
 }
 
-.calculadora {
-    height: 320px;
-    width: 235px;
-    border-radius: 5px;
-    overflow: hidden;
-    text-align: center;
-
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: 1fr repeat(5, 48px);
-}
