@@ -45,6 +45,11 @@ class Calculadora extends Component {
             try {
 
                 valoresASeremCalculados[0] = eval(`${valoresASeremCalculados[0]} ${operacaoRealizada} ${valoresASeremCalculados[1]}`);
+
+                if(isNaN(valoresASeremCalculados[0]) || !isFinite(valoresASeremCalculados[0])){
+                    this.limparDisplay();
+                    return;
+                }
             }
             catch (e) {
                 valoresASeremCalculados[1] = 0;
